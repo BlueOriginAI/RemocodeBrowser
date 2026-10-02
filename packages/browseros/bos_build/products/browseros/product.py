@@ -12,13 +12,18 @@ from ..server_binaries import ServerBundle, SignSpec
 
 BROWSEROS_PRODUCT = ProductDescriptor.define(
     id="browseros",
-    display_name="BrowserOS",
+    display_name="RemocodeBrowser",
+    company="Remocode",
+    mac_bundle_domain="com.remocode",
+    homepage_url="https://github.com/BlueOriginAI/RemocodeBrowser",
+    support_url="https://github.com/BlueOriginAI/RemocodeBrowser/issues",
+    bugtracker_url="https://github.com/BlueOriginAI/RemocodeBrowser/issues",
     windows_installer_guid="{5d8d08af-2df9-4da2-86c1-eac353a0ca32}",
     summary="The open source agentic browser",
-    description="BrowserOS is a privacy-focused web browser built on Chromium.",
+    description="RemocodeBrowser is an open-source AI browser based on BrowserOS and Chromium.",
     required_extensions=(
-        (BROWSEROS_AGENT_EXTENSION_ID, "BrowserOS agent"),
-        (BROWSEROS_BUG_REPORTER_EXTENSION_ID, "BrowserOS bug reporter"),
+        (BROWSEROS_AGENT_EXTENSION_ID, "RemocodeBrowser agent"),
+        (BROWSEROS_BUG_REPORTER_EXTENSION_ID, "RemocodeBrowser bug reporter"),
     ),
 )
 

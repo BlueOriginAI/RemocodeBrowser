@@ -34,7 +34,7 @@ export function SidebarBranding({ expanded = false }: SidebarBrandingProps) {
     <div className="flex h-14 shrink-0 items-center gap-3 px-3">
       <img
         src="/icons/browserclaw.svg"
-        alt="BrowserOS neo"
+        alt="RemocodeBrowser neo"
         className="size-8 shrink-0 rounded-md shadow-card"
       />
       <span
@@ -43,7 +43,7 @@ export function SidebarBranding({ expanded = false }: SidebarBrandingProps) {
           expanded ? 'opacity-100' : 'opacity-0',
         )}
       >
-        BrowserOS neo
+        RemocodeBrowser neo
       </span>
     </div>
   )
